@@ -1,0 +1,42 @@
+name: erp_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+
+  dio: ^5.10.0
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+  flutter:
+    sdk: flutter
+  go_router: ^17.3.0
+  google_fonts: ^8.1.0
+  image_picker: ^1.2.3
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.5
+  file_picker: ^11.0.2
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+
+  flutter_riverpod: ^3.3.2
+  riverpod_annotation: ^4.0.3
+  geolocator: ^14.0.2
+  camera: ^0.12.0+1
+  path_provider: ^2.1.6
+  http: ^1.6.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.0
+  freezed: ^3.2.5
+  json_serializable: ^6.14.0
+
+flutter:
+  uses-material-design: true
